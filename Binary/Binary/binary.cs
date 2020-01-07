@@ -1,4 +1,10 @@
-﻿namespace Binary
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Binary
 {
     class Binary
     {
@@ -23,7 +29,7 @@
 
             for (int i = 0; i < m_Data.Length; i++)
             {
-                retVal = i + retVal;
+                retVal = m_Data[i] + retVal;
             }
             return retVal;
         }

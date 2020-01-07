@@ -28,29 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.SuspendLayout();
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Bishop_Black.gif");
-            this.imageList1.Images.SetKeyName(1, "Bishop_White.gif");
-            this.imageList1.Images.SetKeyName(2, "King_Black.gif");
-            this.imageList1.Images.SetKeyName(3, "King_White.gif");
-            this.imageList1.Images.SetKeyName(4, "Knight_Black.gif");
-            this.imageList1.Images.SetKeyName(5, "Knight_White.gif");
-            this.imageList1.Images.SetKeyName(6, "Pawn_Black.gif");
-            this.imageList1.Images.SetKeyName(7, "Pawn_White.gif");
-            this.imageList1.Images.SetKeyName(8, "Queen_Black.gif");
-            this.imageList1.Images.SetKeyName(9, "Queen_White.gif");
-            this.imageList1.Images.SetKeyName(10, "Rook_Black.gif");
-            this.imageList1.Images.SetKeyName(11, "Rook_White.gif");
-=======
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -785,16 +762,11 @@
             this.pictureBox64.Size = new System.Drawing.Size(44, 44);
             this.pictureBox64.TabIndex = 57;
             this.pictureBox64.TabStop = false;
->>>>>>> b7b7d359f0f228ef61f60ba84c31ae0deb9c1124
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.ClientSize = new System.Drawing.Size(418, 430);
             this.Controls.Add(this.pictureBox57);
             this.Controls.Add(this.pictureBox58);
@@ -862,7 +834,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
->>>>>>> b7b7d359f0f228ef61f60ba84c31ae0deb9c1124
             this.Name = "Form1";
             this.Text = "Chess";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -939,9 +910,6 @@
 
         #endregion
 
-<<<<<<< HEAD
-        private System.Windows.Forms.ImageList imageList1;
-=======
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
@@ -1009,7 +977,6 @@
         private System.Windows.Forms.PictureBox pictureBox62;
         private System.Windows.Forms.PictureBox pictureBox63;
         private System.Windows.Forms.PictureBox pictureBox64;
->>>>>>> b7b7d359f0f228ef61f60ba84c31ae0deb9c1124
     }
 }
 

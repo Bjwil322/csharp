@@ -1,5 +1,8 @@
 ﻿using System;
-using static System.Console;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Binary
 {
@@ -8,9 +11,12 @@ namespace Binary
         static void Main(string[] args)
         {
             Console.Beep();
+
             Binary b = new Binary(10);
-            WriteLine(b);
-            ReadLine();
+
+            Console.WriteLine(b);
+
+            Console.ReadLine();
         }
     }
 }
